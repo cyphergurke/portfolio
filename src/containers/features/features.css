@@ -1,0 +1,74 @@
+.dweb__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.dweb__features-head h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    justify-content: center;
+    text-align: center;
+}
+
+.dweb__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.dweb__features-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.dweb__features-heading p {
+    font-family: var(--font-family);
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ff8A71;
+}
+
+.dweb__features-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:990px) {
+    .dweb__features {
+        flex-direction: column;
+    }
+
+    .dweb__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+
+    .dweb__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
